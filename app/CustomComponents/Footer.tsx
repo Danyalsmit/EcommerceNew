@@ -2,10 +2,10 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="Footer w-full lg: bg-white">
+    <div className="Footer w-full lg: bg-greay">
       {/* Start Section */}
       <div className="lg:flex">
-        <div className="Start w-[80%] p-5 lg: w-[50%]">
+        <div className="Start w-[80%] p-10 lg: w-[50%]">
           <h1 className="TextSecond font-semibold">Morent</h1>
           <p className=" font text-xs text-justify pt-2">
             Our vision is to provide convenience and help increase your sales
@@ -14,7 +14,7 @@ function Footer() {
         </div>
 
         {/* Middle Section */}
-        <div className="Middle flex flex-wrap justify-between p-5 xs:flex-nowrap sm:flex-nowrap  md:w-[50%] ">
+        <div className="Middle flex flex-wrap justify-between p-5 sm:flex-nowrap gap-16 ">
           <div className="About w-[50%] lg:">
             <h1 className="font-semibold">About</h1>
             <ul className="flex flex-col font text-xs pt-2 gap-2">
