@@ -3,7 +3,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="Navbar-container bg-white flex justify-between border-b border-black p-10 py-4">
+    <div className="Navbar-container bg-white flex justify-between border-b p-10 py-4">
       <div className="navbar bg-white text-black gap-2 flex flex-col justify-center sm:flex-row sm:gap-16">
         <div className="Logo flex items-center font-semibold text-base ">
           <h1 className="TextSecond font-semibold">Morent</h1>

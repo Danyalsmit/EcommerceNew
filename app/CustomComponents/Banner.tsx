@@ -4,9 +4,9 @@ import React from "react";
 
 function Banner() {
   return (
-    <div className="Banner-container w-full flex p-10 gap-8">
+    <div className="Banner-container w-full flex p-5 sm:p-10 gap-8">
       {/* Banner1 */}
-      <div className="Banner-a relative border border-black w-full h-[300px] rounded-lg overflow-hidden">
+      <div className="Banner-a relative  w-full h-[400px] sm:h-[300px] rounded-lg overflow-hidden">
         <Image
           src="/BlueBackground.svg"
           alt="Background Banner"
@@ -26,22 +26,22 @@ function Banner() {
             Rental Car
           </Button>
         </div>
-        <div className="absolute bottom-10 right-0 w-[300px]">
+        <div className="absolute bottom-10 right-0 w-[200px] sm:w-[300px]">
           <Image
             src="/BannerCar.svg"
             alt="BannerCar"
             width={300}
-            height={150} 
-            objectFit="contain" 
+            height={150}
+            objectFit="contain"
           />
         </div>
       </div>
 
       {/* Banner2 */}
 
-      <div className="Banner-b relative border border-black w-full h-[300px] rounded-lg overflow-hidden ">
+      <div className="hidden sm:block sm:relative w-full sm:h-[300px] h-[400px] rounded-lg overflow-hidden">
         <Image
-          src="/BlueBackground.svg"
+          src="/Banner2.svg"
           alt="Background Banner"
           layout="fill"
           objectFit="cover"
@@ -55,11 +55,11 @@ function Banner() {
             Providing cheap car rental services and safe and comfortable
             facilities.
           </p>
-          <Button className="rent-car BackgroundSecond mt-6" variant="outline">
+          <Button className="rent-car mt-6" variant="default">
             Rental Car
           </Button>
         </div>
-        <div className="absolute bottom-10 right-0 w-[300px]">
+        <div className="absolute bottom-10 right-0 w-[200px] sm:w-[300px]">
           <Image
             src="/BannerCar.svg"
             alt="BannerCar"

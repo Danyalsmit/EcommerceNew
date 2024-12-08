@@ -7,26 +7,26 @@ function Footer() {
       <div className="lg:flex">
         <div className="Start w-[80%] p-10 lg: w-[50%]">
           <h1 className="TextSecond font-semibold">Morent</h1>
-          <p className=" font text-xs text-justify pt-2">
+          <p className=" font text-xs text-justify sm:text-lg pt-2">
             Our vision is to provide convenience and help increase your sales
             business.
           </p>
         </div>
 
         {/* Middle Section */}
-        <div className="Middle flex flex-wrap justify-between p-5 sm:flex-nowrap gap-16 ">
-          <div className="About w-[50%] lg:">
+        <div className="Middle flex flex-wrap justify-between p-10 sm:flex-nowrap gap-32 ">
+          <div className="About w-[50%] :">
             <h1 className="font-semibold">About</h1>
-            <ul className="flex flex-col font text-xs pt-2 gap-2">
+            <ul className="flex flex-col font text-xs sm:text-sm pt-2 gap-2">
               <li>How it Works</li>
               <li>Featured</li>
               <li>Partnership</li>
               <li>Business Relation</li>
             </ul>
           </div>
-          <div className="Socials pl-10 w-[50%]">
+          <div className="Socials w-[50%]">
             <h1 className="font-semibold">Socials</h1>
-            <ul className="flex flex-col font text-xs pt-2 gap-2">
+            <ul className="flex flex-col  sm:text-sm font text-xs pt-2 gap-2">
               <li>Discord</li>
               <li>Instagram</li>
               <li>Twitter</li>
@@ -35,7 +35,7 @@ function Footer() {
           </div>
           <div className="Community pt-5 w-[50%] sm:p-0 md:p-0 lg:pt-0">
             <h1 className="font-semibold">Community</h1>
-            <ul className="flex flex-col font text-xs pt-2 gap-2">
+            <ul className="flex flex-col font sm:text-sm text-xs pt-2 gap-2">
               <li>Events</li>
               <li>Blog</li>
               <li>Podcast</li>
