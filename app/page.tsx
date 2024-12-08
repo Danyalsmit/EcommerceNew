@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Header from "@/app/CustomComponents/Header";
 import Navbar from "./CustomComponents/Navbar";
 import Footer from "./CustomComponents/Footer";
 import Card from "./CustomComponents/Card";
