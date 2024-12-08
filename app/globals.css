@@ -5,12 +5,17 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --secondary: #F5F5F5;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #ededed;
+    --background: #E3E3E3;
     --foreground: #0a0a0a ;
+    --secondary: #90A3BF;
+    --Textsecondary: #3563E9; /* Apply #3563E9 directly here */
+
+
   }
 }
 
@@ -18,4 +23,12 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+ p,li {
+  color: var(--secondary) !important; 
+}
+.TextSecond {
+  color: var(--Textsecondary) !important; 
+
 }
