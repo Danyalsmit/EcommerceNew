@@ -22,7 +22,7 @@ function Banner() {
             Ease of doing car rental safely and reliably. Of course at a low
             price.
           </p>
-          <Button className="rent-car BackgroundSecond mt-6" variant="outline">
+          <Button className="rent-car BackgroundSecond mt-6" variant="default">
             Rental Car
           </Button>
         </div>
@@ -61,7 +61,7 @@ function Banner() {
         </div>
         <div className="absolute bottom-10 right-0 w-[200px] sm:w-[300px]">
           <Image
-            src="/BannerCar.svg"
+            src="/Bannercar2.svg"
             alt="BannerCar"
             width={300}
             height={150} // Adjust height as needed

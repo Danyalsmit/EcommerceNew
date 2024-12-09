@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 function Card() {
   return (
-    <div className="card bg-White rounded border p-5 border rounded-lg overflow-hidden">
+    <div className="card bg-white rounded border p-2 border rounded-lg overflow-hidden">
       <div className="card-header flex justify-between p-10 items-start">
         <div>
           <h2 className="car-name">Koenigsegg</h2>
