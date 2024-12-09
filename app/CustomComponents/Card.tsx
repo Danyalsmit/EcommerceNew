@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 function Card() {
   return (
     <div className="card bg-white rounded border p-2 border rounded-lg overflow-hidden">
-      <div className="card-header flex justify-between p-10 items-start">
+      <div className="card-header flex justify-between p-5 items-start">
         <div>
           <h2 className="car-name">Koenigsegg</h2>
           <span className="car-type">Sport</span>
@@ -16,7 +16,7 @@ function Card() {
         <div className="car-image">
           <Image src="/car.svg" alt="Image " width={200} height={30} />
         </div>
-        <div className="card-details mt-0 sm:flex justify-between mt-10">
+        <div className="card-details sm:flex justify-between sm:mt-10">
           <div className="detail-item flex gap-2">
             <Image src="/fuelicon.svg" alt="Fuel icon " width={15} height={5} />
             <span className="text-xs">90L</span>
