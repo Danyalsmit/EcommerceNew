@@ -64,8 +64,8 @@ function Banner() {
             src="/Bannercar2.svg"
             alt="BannerCar"
             width={300}
-            height={150} // Adjust height as needed
-            objectFit="contain" // Ensure proper scaling
+            height={150} 
+            objectFit="contain" 
           />
         </div>
       </div>
