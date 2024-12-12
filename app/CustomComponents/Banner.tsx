@@ -59,13 +59,13 @@ function Banner() {
             Rental Car
           </Button>
         </div>
-        <div className="absolute bottom-10 right-0 w-[200px] sm:w-[300px]">
+        <div className="absolute bottom-10 right-0 w-[200px] md:w-[300px]">
           <Image
             src="/Bannercar2.svg"
             alt="BannerCar"
             width={300}
-            height={150} 
-            objectFit="contain" 
+            height={150}
+            objectFit="contain"
           />
         </div>
       </div>
