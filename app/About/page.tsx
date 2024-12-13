@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../CustomComponents/Card";
+import { Slider } from "@/components/ui/slider";
 
 function page() {
   const options = [
@@ -19,35 +20,49 @@ function page() {
   ];
   return (
     <div className="Sidebar flex flex row gap-4 ">
-      <div className="sidebarleft md:w-[20%] bg-white pl-5 gap-2 flex flex-col">
-        <p>Type</p>
-        {options.map((option, index) => (
-          <div key={index} className="flex gap-2  items-center">
-            <input
-              type="checkbox"
-              value={option.value}
-              id={option.value}
-              defaultChecked={option.checked}
-            />
-            <label htmlFor={option.value} className="cursor-pointer">
-              {option.label} <span>({option.count})</span>
-            </label>
-          </div>
-        ))}
-        <p>Capacity</p>
-        {options1.map((option1, index) => (
-          <div key={index} className="flex gap-2  items-center">
-            <input
-              type="checkbox"
-              value={option1.value}
-              id={option1.value}
-              defaultChecked={option1.checked}
-            />
-            <label htmlFor={option1.value} className="cursor-pointer">
-              {option1.label} <span>({option1.count})</span>
-            </label>
-          </div>
-        ))}
+      <div className="sidebarleft md:w-[20%] bg-white pl-5 gap-8 flex flex-col">
+        <div className="1">
+          <p>Type</p>
+          {options.map((option, index) => (
+            <div key={index} className="flex gap-2  items-center">
+              <input
+                type="checkbox"
+                value={option.value}
+                id={option.value}
+                defaultChecked={option.checked}
+              />
+              <label htmlFor={option.value} className="cursor-pointer">
+                {option.label} <span>({option.count})</span>
+              </label>
+            </div>
+          ))}
+        </div>
+        <div className="2">
+          <p>Capacity</p>
+          {options1.map((option1, index) => (
+            <div key={index} className="flex gap-2  items-center">
+              <input
+                type="checkbox"
+                value={option1.value}
+                id={option1.value}
+                defaultChecked={option1.checked}
+              />
+              <label htmlFor={option1.value} className="cursor-pointer">
+                {option1.label} <span>({option1.count})</span>
+              </label>
+            </div>
+          ))}
+        </div>
+        <div className="3">
+          <p>Price</p>
+          <Slider
+            defaultValue={[80]}
+            max={100}
+            step={1}
+            className="TextSecondbg2 w-[70%]"
+          />
+          <h2>Max$100.00</h2>
+        </div>
       </div>
       <div className="sidebarright md:w-[80%] gap-4 flex flex row flex-wrap	">
         <Card />

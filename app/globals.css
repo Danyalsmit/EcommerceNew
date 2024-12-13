@@ -27,6 +27,12 @@ body {
 .TextSecond {
   color: var(--Textsecondary) !important; 
 }
+.TextSecondbg {
+  background: var(--Textsecondary) !important; 
+}
+.TextSecondbg2 {
+  background: var(--secondary) !important; 
+}
 .BackgroundSecond {
   background: var(--Textsecondary) !important; 
   color: var(--TextWhite)!important ;
