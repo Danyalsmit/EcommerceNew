@@ -26,7 +26,7 @@ function Banner() {
             Rental Car
           </Button>
         </div>
-        <div className="absolute bottom-10 right-0 w-[200px] sm:w-[300px]">
+        <div className="absolute bottom-10 right-0 w-[300px] sm:w-[200px] lg:w-[280px]">
           <Image
             src="/BannerCar.svg"
             alt="BannerCar"
@@ -59,11 +59,11 @@ function Banner() {
             Rental Car
           </Button>
         </div>
-        <div className="absolute bottom-10 right-0 w-[200px] md:w-[300px]">
+        <div className="absolute bottom-10 right-0 w-[300px] sm:w-[200px] lg:w-[280px] ">
           <Image
             src="/Bannercar2.svg"
             alt="BannerCar"
-            width={300}
+            width={270}
             height={150}
             objectFit="contain"
           />

@@ -11,7 +11,8 @@ function Navbar() {
         <div className="Search flex gap-4 rounded-[50px] px-5 bg-[#F5F5F5] border justify-between items-center">
           <div className="Search-input flex gap-6 text-xs pr-10 py-2">
             <Image src="/Search.svg" alt="Cart " width={20} height={5} />
-            <p> Search something here</p>
+            {/* <p> Search something here</p> */}
+            <input type="search" placeholder="Search something here" />
           </div>
           <div>
             <Image src="/filter.svg" alt="filter " width={20} height={5} />

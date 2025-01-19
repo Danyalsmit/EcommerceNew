@@ -21,13 +21,13 @@ export default function Home() {
         <h1>Recommendation Car</h1>
       </div>
       {/* Card Section 1 */}
-      <section className="sm:flex justify-around gap-4 p-10 sm:flex-wrap lg:flex-nowrap">
+      <section className="sm:flex justify-around gap-4 p-5 sm:p-10 sm:flex-wrap lg:flex-nowrap">
         {cards.map((_, index) => (
           <Card key={index} />
         ))}
       </section>
       {/* Card Section 2 */}
-      <section className="sm:flex justify-around gap-4 p-10 sm:flex-wrap lg:flex-nowrap">
+      <section className="sm:flex justify-around gap-4 p-5 sm:p-10 sm:flex-wrap lg:flex-nowrap">
         {cards.map((_, index) => (
           <Card key={index} />
         ))}
