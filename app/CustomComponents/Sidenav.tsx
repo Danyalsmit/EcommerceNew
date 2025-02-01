@@ -1,5 +1,4 @@
 import React from "react";
-import Card from "../CustomComponents/Card";
 import { Slider } from "@/components/ui/slider";
 
 function Sidenav() {

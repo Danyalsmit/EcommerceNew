@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "../CustomComponents/Card";
-import { Slider } from "@/components/ui/slider";
 import Sidenav from "../CustomComponents/Sidenav";
 
 function page() {
